@@ -1,0 +1,52 @@
+h1 {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+}
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.imageBox {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.overlayer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 0.4s ease;
+}
+.overlayer a {
+  transform: translateY(100px);
+  transition: transform 0.5s ease;
+}
+
+/* ---  Hover  --- */
+.overlayer:hover {
+  opacity: 1;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+.overlayer:hover a {
+  transform: translateY(0);
+}
