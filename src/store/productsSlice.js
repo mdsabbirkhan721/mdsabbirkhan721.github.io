@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-
+const base = import.meta.env.BASE_URL;
 const initialState = {
   products: [
     {
@@ -30,7 +30,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/5.avif',
+      image: `${base}images/5.avif`,
       rating: {
         stars: 4.5,
         count: 210,
@@ -70,7 +70,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men2.jpg',
+      image: `${base}images/men2.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -110,7 +110,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men7.jpg',
+      image: `${base}images/men7.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -148,7 +148,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men1.webp',
+      image: `${base}images/men1.webp`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -186,7 +186,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men3.webp',
+      image: `${base}images/men3.webp`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -225,7 +225,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men6.jpg',
+      image: `${base}images/men6.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -265,7 +265,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/1.avif',
+      image: `${base}images/1.avif`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -304,7 +304,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men.webp',
+      image: `${base}images/men.webp`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -342,7 +342,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/men8.jpg',
+      image: `${base}images/men8.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -382,7 +382,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/p5.png',
+      image: `${base}images/p5.png`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -421,7 +421,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/t-shirt.jpg',
+      image: `${base}images/t-shirt.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -460,7 +460,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/t-shirt2.jpg',
+      image: `${base}images/t-shirt2.jpg`,
       rating: {
         stars: 4.2,
         count: 150,
@@ -501,7 +501,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/3.jfif',
+      image: `${base}images/3.jfif`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -541,7 +541,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/hoodie1.jpg',
+      image: `${base}images/hoodie1.jpg`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -580,7 +580,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/hoodie2.avif',
+      image: `${base}images/hoodie2.avif`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -620,7 +620,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/hoodie3.webp',
+      image: `${base}images/hoodie3.webp`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -660,7 +660,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/hoodie4.jpg',
+      image: `${base}images/hoodie4.jpg`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -724,7 +724,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/hoodie5.avif',
+      image: `${base}images/hoodie5.avif`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -764,7 +764,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/punjabi1.jpg',
+      image: `${base}images/punjabi1.jpg`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -804,7 +804,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/punjabi2.webp',
+      image: `${base}images/punjabi2.webp`,
       rating: {
         stars: 4.6,
         count: 320,
@@ -844,7 +844,7 @@ const initialState = {
           '🚛 ঢাকার বাইরে ডেলিভারি চার্জ – ১৩০৳',
         ],
       },
-      image: '/images/punjabi3.jpg',
+      image: `${base}images/punjabi3.jpg`,
       rating: {
         stars: 4.6,
         count: 320,

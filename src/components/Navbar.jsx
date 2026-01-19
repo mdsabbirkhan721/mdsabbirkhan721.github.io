@@ -2,6 +2,7 @@ import { FaShoppingCart, FaUserCircle, FaHeart } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+const base = import.meta.env.BASE_URL;
 
 const Navbar = () => {
   const cart = useSelector((store) => store.cart);
@@ -26,7 +27,7 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/">
           <img
             className="img-fluid rounded"
-            src="/images/1765431524778.jpg"
+            src={`${base}images/1765431524778.jpg`}
             alt="Logo"
             width="70"
             height="70"

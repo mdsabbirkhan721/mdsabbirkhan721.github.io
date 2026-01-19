@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaHeart } from 'react-icons/fa';
 import { FaClipboardList } from 'react-icons/fa';
+const base = import.meta.env.BASE_URL;
 
 const UserProfile = () => {
   const dispatch = useDispatch();
@@ -34,7 +35,7 @@ const UserProfile = () => {
               <Link className="navbar-brand" to="/">
                 <img
                   className="img-fluid rounded"
-                  src="/images/1765431524778.jpg"
+                  src={`${base}images/1765431524778.jpg`}
                   alt=""
                   width="100"
                   height="100"

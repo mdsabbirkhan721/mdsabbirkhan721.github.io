@@ -3,6 +3,7 @@ import { FaFacebookMessenger } from 'react-icons/fa6';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { AiFillInstagram } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
+const base = import.meta.env.BASE_URL;
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
         <Link className="navbar-brand " to="/">
           <img
             className="img rounded "
-            src="/images/1765431524778.jpg"
+            src={`${base}images/1765431524778.jpg`}
             alt="Brand-logo"
             width="100"
             height="100"

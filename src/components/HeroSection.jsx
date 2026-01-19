@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+const base = import.meta.env.BASE_URL;
 
 const HeroSection = () => {
   return (
@@ -31,7 +32,11 @@ const HeroSection = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/images/banner.jpg" className="d-block w-100" alt="..." />
+          <img
+            src={`${base}images/banner.jpg`}
+            className="d-block w-100"
+            alt="..."
+          />
           <div className="carousel-caption  my-5">
             <h1 className="fw-bold text-dark">Style That Speaks</h1>
             <Link
@@ -43,7 +48,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="/images/banner2.jpg" className="d-block w-100" alt="..." />
+          <img
+            src={`${base}images/banner2.jpg`}
+            className="d-block w-100"
+            alt="..."
+          />
           <div className="carousel-caption my-5">
             <h1 className="fw-bold text-white ">Wear Your Confidence</h1>
             <Link
@@ -56,7 +65,7 @@ const HeroSection = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="/images/kids_banner.jpg"
+            src={`${base}images/kids_banner.jpg`}
             className="d-block w-100"
             alt="..."
           />
